@@ -1,6 +1,9 @@
 # Black_Jack_Game
 
 This is a simple BlackJack game built in Java using Swing for the graphical interface. The game deals two cards to the player and two cards to the dealer, with one of the dealer's cards hidden until the round ends. The player can choose to hit and draw another card or stay and let the dealer play out their hand according to standard BlackJack rules, where the dealer keeps drawing until their hand reaches at least seventeen.
+
 The deck is built using a standard fifty two card setup with four suits and thirteen values, and it gets shuffled using a random swap method before each new game starts. Card values are calculated so that face cards count as ten and aces count as eleven unless that would cause a bust, in which case the ace gets reduced to one automatically.
+
 The interface displays the dealer and player hands as card images drawn onto the game panel, along with running point totals for both sides. Once the player stays, the hidden dealer card gets revealed and the game compares both hands to determine a winner, showing a message for a win, a loss, or a tie directly on the board.
+
 A new game button lets the player reset the board and start a fresh round with a newly shuffled deck without needing to restart the whole program.
