@@ -7,3 +7,4 @@ The deck is built using a standard fifty two card setup with four suits and thir
 The interface displays the dealer and player hands as card images drawn onto the game panel, along with running point totals for both sides. Once the player stays, the hidden dealer card gets revealed and the game compares both hands to determine a winner, showing a message for a win, a loss, or a tie directly on the board.
 
 A new game button lets the player reset the board and start a fresh round with a newly shuffled deck without needing to restart the whole program.
+<img width="1170" height="1174" alt="image" src="https://github.com/user-attachments/assets/5e4d2993-11fb-45fa-8679-e29e56a290f4" />
